@@ -16,7 +16,7 @@ describe('Form validation', () => {
   });
 
   it('Returns short format correctly', async() => {
-    expect(dateFormatter(date).short).equal('Dec 3');
+    expect(dateFormatter(date).short).equal('Dec ');
   });
 
   it('Returns default format correctly', async() => {
